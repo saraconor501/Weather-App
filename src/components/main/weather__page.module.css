@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #D69E36;
+}
+.weather__block{
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 80px;
+    flex-direction: row;
+}
+.weather__block img{
+    margin-right: 10px
+}
+.weather__block h2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.b2__img{
+    display: flex;
+    flex-direction: row;
+}
+.b2__img p{
+    font-size: 12px;
+    color: white;
+}
+.Cloudy img{
+    width: 321px;
+    height: 255px;
+}
+.Cloudy{
+    display: flex;
+    justify-content: end;
+    margin-top: -9%;
+    margin-right: 80px;
+}
+.vector2{
+    margin-top: 10px;
+}
+.sub__elements{
+    margin-left: 80px;
+}
+.sub__elements h1{
+    margin-top: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.sub__elements h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 70px
+}
+.sub__elements p{
+    color: white;
+    font-size: 18px;
+    font-weight: 00;
+    margin-bottom: 20px
+}
+.sub__elements h2{
+    margin-top: -5%;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 537px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #DEAB4D;
+}
+.main__block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.userLogo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.block1 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.block1 p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.block2{
+    width: 884px;
+    height: 537px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #DEAB4D;
+}
+
+.logoandtit{
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.logoandtit h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+}
+.CityPhoto{
+    width: 178px;
+    height: 108px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.b2__img{
+    margin-left: 40px;
+}
+.block3{
+    width: 324px;
+    height: 537px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    box-shadow: -2px 0px 8px 2px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
+    background-color: #DEAB4D;
+}
+
+.sub__block{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sub__block p{
+    font-size: 20px;
+    color: white;
+}
+.sub__block input{
+    width: 262px;
+    height: 37px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    outline: none;
+}
+
+.subblock3 p{
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+}
+
+.subblock3 h2{
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.wpblock3{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    
+}
+
+.sub_elem{
+    display: flex;
+    flex-direction: column;
+}
+.wpblock3 img{
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 805px){
+    .CityPhoto{
+        width: 150px;
+        height: 100px;
+    }
+}
